@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(26, 26, 43);
+  width: 80%;
+  max-width: 400px;
+  min-height: 250px;
+  border-radius: 24px;
+  padding: 24px;
+  margin: 24px;
+}
+
+.step {
+}
+
+.question {
+  font-size: 1.75em;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.poem {
+  font-size: 1em;
+  white-space: pre;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.buttons > *:first-child {
+  margin-right: 12px;
+}
+
+.buttons > *:last-child {
+  margin-left: 12px;
+}
+
+.button {
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  border-radius: 5rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 3rem;
+  letter-spacing: 0.05em;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 5rem;
+  text-transform: uppercase;
+}
+
+.primary {
+  background: -webkit-gradient(to right, #a2ccb6 0%, #fffb78 50%, #ee6ed8 100%);
+  background: linear-gradient(to right, #a2ccb6 0%, #fffb78 50%, #ee6ed8 100%);
+  background-size: 500%;
+  background-position: 100%;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  width: 10rem;
+}
